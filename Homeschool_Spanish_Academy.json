@@ -1,0 +1,5185 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "7651dbe8-4946-11ea-9023-8c8590154a69",
+    "deck_config_uuid": "76586352-4946-11ea-b695-8c8590154a69",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "crowdanki_uuid": "76586352-4946-11ea-b695-8c8590154a69",
+            "dyn": false,
+            "lapse": {
+                "delays": [
+                    10
+                ],
+                "leechAction": 0,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": true,
+                "delays": [
+                    1,
+                    10
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    7
+                ],
+                "order": 1,
+                "perDay": 8,
+                "separate": true
+            },
+            "replayq": true,
+            "rev": {
+                "bury": true,
+                "ease4": 1.3,
+                "fuzz": 0.05,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "minSpace": 1,
+                "perDay": 100
+            },
+            "timer": 0
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 10,
+    "extendRev": 50,
+    "media_files": [],
+    "name": "Homeschool Spanish Academy",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "name": "Basic (and reversed card)",
+            "req": [
+                [
+                    0,
+                    "all",
+                    [
+                        0
+                    ]
+                ],
+                [
+                    1,
+                    "all",
+                    [
+                        1
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Front}}"
+                },
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Front}}",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Card 2",
+                    "ord": 1,
+                    "qfmt": "{{Back}}"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Estar",
+                "To be"
+            ],
+            "flags": 0,
+            "guid": "y_Rcjh2vl0",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2",
+                "n2b1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Yo estoy",
+                "I am"
+            ],
+            "flags": 0,
+            "guid": "oAUoY{^&Kk",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b1",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Nosotros estamos",
+                "We are"
+            ],
+            "flags": 0,
+            "guid": "u!X;,dOz@5",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b1",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Tú estás",
+                "You are"
+            ],
+            "flags": 0,
+            "guid": "or6=B}z/rO",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b1",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Usted está",
+                "You (formal) are"
+            ],
+            "flags": 0,
+            "guid": "Ny([4EdXo!",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b1",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Ustedes están",
+                "You are"
+            ],
+            "flags": 0,
+            "guid": "N:I5CA.^Tk",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b1",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Él, ella está",
+                "He, she is"
+            ],
+            "flags": 0,
+            "guid": "vu6pBhL*5L",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b1",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Ellos, ellas están",
+                "They are"
+            ],
+            "flags": 0,
+            "guid": "C[r7YT%!V",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b1",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Yo estoy listo",
+                "I am ready"
+            ],
+            "flags": 0,
+            "guid": "gAbB:UMdlM",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b1",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Tú estás feliz",
+                "You are happy"
+            ],
+            "flags": 0,
+            "guid": "DX*6I;Lt4~",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b1",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Usted está nervioso",
+                "You are nervous"
+            ],
+            "flags": 0,
+            "guid": "O$+o7=JUVK",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b1",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Él está tranquilo",
+                "He is calm"
+            ],
+            "flags": 0,
+            "guid": "P~.-cp;XX7",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b1",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Ella está entusiasmada",
+                "She is excited"
+            ],
+            "flags": 0,
+            "guid": "z-58,i4LgV",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b1",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Yo estoy aburrido",
+                "I am bored"
+            ],
+            "flags": 0,
+            "guid": "v/q}@sb7*&",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b1",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Tú estás cansado",
+                "You are tired"
+            ],
+            "flags": 0,
+            "guid": "Bi==6*IRS@",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b1",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Usted está preocupado",
+                "You are worried"
+            ],
+            "flags": 0,
+            "guid": "eP#Z)`-b*f",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b1",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Él está enojado",
+                "He is angry"
+            ],
+            "flags": 0,
+            "guid": "dY(B8Pm%Bn",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b1",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Ella está enferma",
+                "She is sick"
+            ],
+            "flags": 0,
+            "guid": "urV}7}U$TF",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b1",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Yo estoy triste",
+                "I am sad"
+            ],
+            "flags": 0,
+            "guid": "JI|hNS1cJq",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b1",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Ella está ocupada",
+                "She is busy"
+            ],
+            "flags": 0,
+            "guid": "uy(I0=W,jG",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b1",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Él está frustrado",
+                "He is frustrated"
+            ],
+            "flags": 0,
+            "guid": "IR_2%WUS7+",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b1",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Tú estás asustado",
+                "You are frightened"
+            ],
+            "flags": 0,
+            "guid": "c6-GD}0xyr",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b1",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Triste",
+                "Sad"
+            ],
+            "flags": 0,
+            "guid": "PDZ6H.2Ddz",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b1",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Alegre",
+                "Cheerful"
+            ],
+            "flags": 0,
+            "guid": "e;zN[zSsGF",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b1",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Contento",
+                "Glad"
+            ],
+            "flags": 0,
+            "guid": "e6XmW/CR2_",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b1",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Emocionado",
+                "Excited"
+            ],
+            "flags": 0,
+            "guid": "A}Ef>7%xzL",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b1",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Tranquilo",
+                "Calm"
+            ],
+            "flags": 0,
+            "guid": "v#^2;Qy^#d",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b1",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Ocupado",
+                "Busy"
+            ],
+            "flags": 0,
+            "guid": "M.AZXTw.Ig",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b1",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Preparado/ Listo",
+                "Ready"
+            ],
+            "flags": 0,
+            "guid": "MkTGlzZ]Hd",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b1",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Enfermo",
+                "Sick"
+            ],
+            "flags": 0,
+            "guid": "n:YH?]cFtF",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b1",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Cansado",
+                "Tired"
+            ],
+            "flags": 0,
+            "guid": "oopooN%q*8",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b1",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Entusiasmado",
+                "Enthusiastic"
+            ],
+            "flags": 0,
+            "guid": "v<(0pQmDX;",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b1",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Sucio",
+                "Dirty"
+            ],
+            "flags": 0,
+            "guid": "n^DP%ElIE1",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b1",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Aburrido",
+                "Bored"
+            ],
+            "flags": 0,
+            "guid": "i+Y$::&iSj",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b1",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Confundido",
+                "Confused"
+            ],
+            "flags": 0,
+            "guid": "wyVn5sqhGk",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b1",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Enojado",
+                "Angry"
+            ],
+            "flags": 0,
+            "guid": "ckiAA@/k:r",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b1",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Celoso",
+                "Jealous"
+            ],
+            "flags": 0,
+            "guid": "pJ3D^bd<MU",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b1",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Preocupado",
+                "Worried"
+            ],
+            "flags": 0,
+            "guid": "K[[exY+Y^v",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b1",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Muerto",
+                "Dead"
+            ],
+            "flags": 0,
+            "guid": "z)+5{8FhgJ",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b1",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Asustado",
+                "Scared"
+            ],
+            "flags": 0,
+            "guid": "q#G~H1A@n&",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b1",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Frustrado",
+                "Frustrated"
+            ],
+            "flags": 0,
+            "guid": "g:,/,NfItR",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b1",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Frío",
+                "Cold"
+            ],
+            "flags": 0,
+            "guid": "heOR_Tx>]c",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b1",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Caliente",
+                "Hot"
+            ],
+            "flags": 0,
+            "guid": "lf5$Vx)vB&",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b1",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Limpio",
+                "Clean"
+            ],
+            "flags": 0,
+            "guid": "kh%%=mD7}1",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b1",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "La fiesta está aburrida",
+                "The party is bored"
+            ],
+            "flags": 0,
+            "guid": "FzwHLQSV2d",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b1",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Ellos están emocionados",
+                "They are excited"
+            ],
+            "flags": 0,
+            "guid": "P@*Yl>;l.s",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b1",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Ustedes están entusiasmados",
+                "You are excited"
+            ],
+            "flags": 0,
+            "guid": "n3PJNnNmCE",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b1",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "El estudiante está confundido",
+                "The student is confused"
+            ],
+            "flags": 0,
+            "guid": "A%Zu&xALRR",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b1",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "El niño está celoso",
+                "The child is jealous"
+            ],
+            "flags": 0,
+            "guid": "Re[/vjW{pE",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b1",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "El perro está muerto",
+                "The dog is dead"
+            ],
+            "flags": 0,
+            "guid": "bJy@V726RK",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b1",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "El agua está fría",
+                "The water is cold"
+            ],
+            "flags": 0,
+            "guid": "I@@Dw~P:N*",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b1",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "La casa está sucia",
+                "The house is dirty"
+            ],
+            "flags": 0,
+            "guid": "sNg39|7d{+",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b1",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Tener",
+                "To have"
+            ],
+            "flags": 0,
+            "guid": "bJOHB#m1?i",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b2",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Yo Tengo",
+                "I have"
+            ],
+            "flags": 0,
+            "guid": "P.4<xLNyz^",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b2",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Tú Tienes",
+                "You have"
+            ],
+            "flags": 0,
+            "guid": "B+sQoUM3t6",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b2",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Él, ella Tiene",
+                "He, she has"
+            ],
+            "flags": 0,
+            "guid": "p6qnh$D&cF",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b2",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Usted Tiene",
+                "You(formal) have"
+            ],
+            "flags": 0,
+            "guid": "cpvwz/31fS",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b2",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Nosotros Tenemos",
+                "We have"
+            ],
+            "flags": 0,
+            "guid": "fR:-o_Gf96",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b2",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Ustedes Tienen",
+                "You(all) have"
+            ],
+            "flags": 0,
+            "guid": "sNICWXu2*7",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b2",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Ellos Tienen",
+                "They(male) have"
+            ],
+            "flags": 0,
+            "guid": "g?uWEG?RT4",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b2",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Ellas Tienen",
+                "They(female) have"
+            ],
+            "flags": 0,
+            "guid": "r0H^?|3!O7",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b2",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Carlos tiene una bicicleta",
+                "Carlos has a bicycle"
+            ],
+            "flags": 0,
+            "guid": "uaBdl*jwFb",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b2",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Yo tengo un rompecabezas",
+                "I have a puzzle"
+            ],
+            "flags": 0,
+            "guid": "MJvp5~#O]B",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b2",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Andrea tiene muchos juguetes",
+                "Andrea has many toys"
+            ],
+            "flags": 0,
+            "guid": "ehhZfZ:dX@",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b2",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Los juguetes",
+                "The toys"
+            ],
+            "flags": 0,
+            "guid": "m0$7OqCRhM",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b2",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "El carro",
+                "The car"
+            ],
+            "flags": 0,
+            "guid": "iArtzWJn+9",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b2",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Los bloques",
+                "The blocks"
+            ],
+            "flags": 0,
+            "guid": "fRqT[5VD@r",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b2",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "La pelota",
+                "The ball"
+            ],
+            "flags": 0,
+            "guid": "rI8jg-h_16",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b2",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "El oso de peluche",
+                "The teddy bear"
+            ],
+            "flags": 0,
+            "guid": "mDKXi@-!E#",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b2",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "La bicicleta",
+                "The bicycle"
+            ],
+            "flags": 0,
+            "guid": "g52iZR*`w>",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b2",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "El tambor",
+                "The drum"
+            ],
+            "flags": 0,
+            "guid": "l);|mF`]1c",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b2",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "El tren",
+                "The train"
+            ],
+            "flags": 0,
+            "guid": "y`<QMI?8T(",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b2",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "La muñeca",
+                "The doll"
+            ],
+            "flags": 0,
+            "guid": "A/e5Y+1v1|",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b2",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "El avión",
+                "The plane"
+            ],
+            "flags": 0,
+            "guid": "G$I|V[&rF:",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b2",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Los patines",
+                "The skates"
+            ],
+            "flags": 0,
+            "guid": "n1wr6gstK=",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b2",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "La guitarra",
+                "The guitar"
+            ],
+            "flags": 0,
+            "guid": "j8E^dKwAWi",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b2",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "El xilófono",
+                "The xylophone"
+            ],
+            "flags": 0,
+            "guid": "ALmimfNIfy",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b2",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Cabello/pelo",
+                "Hair"
+            ],
+            "flags": 0,
+            "guid": "z~,(5r)UA7",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b3",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Cabeza",
+                "Head"
+            ],
+            "flags": 0,
+            "guid": "qj}^c1C,LK",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b3",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Frente",
+                "Forehead"
+            ],
+            "flags": 0,
+            "guid": "iaFq#%H>RR",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b3",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Ceja",
+                "Eyebrow"
+            ],
+            "flags": 0,
+            "guid": "lV+w[z&{sX",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b3",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Ojo",
+                "Eyebrow"
+            ],
+            "flags": 0,
+            "guid": "N=xM#7K%-s",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b3",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Pestañas",
+                "Eyelash"
+            ],
+            "flags": 0,
+            "guid": "MoA_QWN_Ks",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b3",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Nariz",
+                "Nose"
+            ],
+            "flags": 0,
+            "guid": "sRj[wjK!|`",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b3",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Boca",
+                "Mouth"
+            ],
+            "flags": 0,
+            "guid": "whu,Hm>w$$",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b3",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Mejilla",
+                "Cheek"
+            ],
+            "flags": 0,
+            "guid": "I?QDa4q<x",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b3",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Barbilla",
+                "Chin"
+            ],
+            "flags": 0,
+            "guid": "fIl}xkhYJy",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b3",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Oreja",
+                "Ear"
+            ],
+            "flags": 0,
+            "guid": "m,sYB:Z9JY",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b3",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Cuello",
+                "Neck"
+            ],
+            "flags": 0,
+            "guid": "o}/K]U~S!B",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b3",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Hombro",
+                "Shoulder"
+            ],
+            "flags": 0,
+            "guid": "Ca<:zb7vM_",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b3",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Brazo",
+                "Arm"
+            ],
+            "flags": 0,
+            "guid": "o6zf;zPV6{",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b3",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Codo",
+                "Elbow"
+            ],
+            "flags": 0,
+            "guid": "pnBd#sq.>*",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b3",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Mano",
+                "Hand"
+            ],
+            "flags": 0,
+            "guid": "Kykh+x?u.L",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b3",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Dedo de la mano",
+                "Finger"
+            ],
+            "flags": 0,
+            "guid": "A[H}fsOctB",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b3",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Pecho",
+                "Chest"
+            ],
+            "flags": 0,
+            "guid": "n;7.$aR5zd",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b3",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Espalda",
+                "Back"
+            ],
+            "flags": 0,
+            "guid": "IFPt~|;^io",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b3",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Cintura",
+                "Waist"
+            ],
+            "flags": 0,
+            "guid": "gjB!F71s;E",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b3",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Pierna",
+                "Leg"
+            ],
+            "flags": 0,
+            "guid": "ctts,c4/4{",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b3",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Rodilla",
+                "Knee"
+            ],
+            "flags": 0,
+            "guid": "J#68ORbRZ+",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b3",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Tobillo",
+                "Ankle"
+            ],
+            "flags": 0,
+            "guid": "pj9=xj&DN>",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b3",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Dedo del Pie",
+                "Toe"
+            ],
+            "flags": 0,
+            "guid": "j@2b{k7QDm",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b3",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Cara",
+                "Face"
+            ],
+            "flags": 0,
+            "guid": "E4-!G>qY}t",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b3",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Yo tengo cabello largo",
+                "I have long hair"
+            ],
+            "flags": 0,
+            "guid": "i&TtTedFsl",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b3",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Tú tienes boca pequeña",
+                "You have small mouth"
+            ],
+            "flags": 0,
+            "guid": "fbG!G2!I;5",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b3",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Él tiene cabello corto",
+                "He has short hair"
+            ],
+            "flags": 0,
+            "guid": "Q;>L16t`8,",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b3",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Ella tiene ojos negros",
+                "She has black eyes"
+            ],
+            "flags": 0,
+            "guid": "PoAjDs_Sr|",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b3",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Ellos tienen brazos fuertes",
+                "They have strong arms"
+            ],
+            "flags": 0,
+            "guid": "Pusa7;z<y:",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b3",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Ellas Tienen manos bonitas",
+                "They have beautiful hands"
+            ],
+            "flags": 0,
+            "guid": "C](r%/}eGG",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b3",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Tú tienes cinco dedos en la mano",
+                ""
+            ],
+            "flags": 0,
+            "guid": "Q!.@kNO]O%",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b3",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Tengo dolor de estómago",
+                "I have a stomachache"
+            ],
+            "flags": 0,
+            "guid": "N]XX$zuR:u",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b4",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Tengo dolor de cabeza",
+                "I have a headache"
+            ],
+            "flags": 0,
+            "guid": "l{z_ViX+0G",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b4",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Tengo dolor de espalda",
+                "I have a backache"
+            ],
+            "flags": 0,
+            "guid": "h:am)6/_~p",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b4",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Tengo dolor de oído",
+                "I have ear ache"
+            ],
+            "flags": 0,
+            "guid": "GX#k#8E}Bt",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b4",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Tengo dolor de garganta",
+                "I have sore throat"
+            ],
+            "flags": 0,
+            "guid": "K@z(`]9<#q",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b4",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Tengo dolor de muela",
+                "I have toothache"
+            ],
+            "flags": 0,
+            "guid": "FV$v|9`|s[",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b4",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Tengo gripe",
+                "I have the flu"
+            ],
+            "flags": 0,
+            "guid": "NX};&Muop$",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b4",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Tengo fiebre",
+                "I have a fever"
+            ],
+            "flags": 0,
+            "guid": "P+N=TqP+VV",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b4",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Tengo tos",
+                "I have a cough"
+            ],
+            "flags": 0,
+            "guid": "E:ojU6H28;",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b4",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Alergia",
+                "Allergy"
+            ],
+            "flags": 0,
+            "guid": "xqol>;=n#u",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b4",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Asma",
+                "Asthma"
+            ],
+            "flags": 0,
+            "guid": "BtY]nk^zea",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b4",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Buena salud",
+                "Well; Healthy; In good health"
+            ],
+            "flags": 0,
+            "guid": "vQC-QYJ_:Z",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b4",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Catarro; Resfriado",
+                "Cold"
+            ],
+            "flags": 0,
+            "guid": "g-}43TSmQt",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b4",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Cicatriz",
+                "Scar"
+            ],
+            "flags": 0,
+            "guid": "yO<JrhJ93V",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b4",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Tos",
+                "Cough"
+            ],
+            "flags": 0,
+            "guid": "E(LI>BWEes",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b4",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Infección",
+                "Infection"
+            ],
+            "flags": 0,
+            "guid": "Q|9%t`N.b9",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b4",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Dolor",
+                "Pain"
+            ],
+            "flags": 0,
+            "guid": "f2bP_3~w.@",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b4",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Herida",
+                "Hurt; Injury"
+            ],
+            "flags": 0,
+            "guid": "Hu*SX!W{.s",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b4",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Náusea",
+                "Nausea"
+            ],
+            "flags": 0,
+            "guid": "ON#As2eJR@",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b4",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Tengo frío",
+                "I am cold"
+            ],
+            "flags": 0,
+            "guid": "Q6q6,i}ol>",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b5",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Tengo.....años",
+                "I am....years old"
+            ],
+            "flags": 0,
+            "guid": "Jx_?aGfF6e",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b5",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Tengo miedo",
+                "I am afraid"
+            ],
+            "flags": 0,
+            "guid": "*_8*/7D~,",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b5",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Tengo hambre",
+                "I am hungry"
+            ],
+            "flags": 0,
+            "guid": "n}q!%rQO_Z",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b5",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Tengo prisa",
+                "I am in a hurry"
+            ],
+            "flags": 0,
+            "guid": "vMnBhE9LT7",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b5",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Tengo suerte",
+                "I am lucky"
+            ],
+            "flags": 0,
+            "guid": "C%(2|>7oH)",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b5",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Tengo sueño",
+                "I am sleepy"
+            ],
+            "flags": 0,
+            "guid": "CG1fKbsitC",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b5",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Tengo cuidado",
+                "I am careful"
+            ],
+            "flags": 0,
+            "guid": "z0Z_dG.6Bv",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b5",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Tengo calor",
+                "I am hot"
+            ],
+            "flags": 0,
+            "guid": "KLk5&KYD1J",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b5",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Tengo sed",
+                "I am sad"
+            ],
+            "flags": 0,
+            "guid": "o!GdxMNkdp",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b5",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Tengo razón",
+                "I am right"
+            ],
+            "flags": 0,
+            "guid": "o(9N/Smj>G",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b5",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Querer",
+                "To want"
+            ],
+            "flags": 0,
+            "guid": "zn*Er{2qGr",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b6",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Yo quiero",
+                "I want"
+            ],
+            "flags": 0,
+            "guid": "k!?!{OQ~P|",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b6",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Tú quieres",
+                "You want"
+            ],
+            "flags": 0,
+            "guid": "my-;>}UHQ)",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b6",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Usted quiere",
+                "You want"
+            ],
+            "flags": 0,
+            "guid": "z}=e3_b@z*",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b6",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Él, ella quiere",
+                "He, she wants"
+            ],
+            "flags": 0,
+            "guid": "D6gGL*|JR%",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b6",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Nosotros(as) queremos",
+                "We want"
+            ],
+            "flags": 0,
+            "guid": "FG[qiP{&;>",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b6",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Ustedes quieren",
+                "You want(plural)"
+            ],
+            "flags": 0,
+            "guid": "oVKP{<<IE8",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b6",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Elos, ellas quieren",
+                "They want"
+            ],
+            "flags": 0,
+            "guid": "jeO@0V!&_%",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b6",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Las Frutas",
+                "The fruits"
+            ],
+            "flags": 0,
+            "guid": "IILNx_I2Q#",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b6",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Manzana",
+                "Apple"
+            ],
+            "flags": 0,
+            "guid": "K3&jc~+TP6",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b6",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Frambuesa",
+                "Raspberry"
+            ],
+            "flags": 0,
+            "guid": "Lfo6{R9b1*",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b6",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Fresa",
+                "Strawberry"
+            ],
+            "flags": 0,
+            "guid": "FTFdK<d<jw",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b6",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Piña",
+                "Pineapple"
+            ],
+            "flags": 0,
+            "guid": "B96?ABh3kg",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b6",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Melón",
+                "Melon"
+            ],
+            "flags": 0,
+            "guid": "hi>iL<OP_k",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b6",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Limón",
+                "Lemon"
+            ],
+            "flags": 0,
+            "guid": "lS?zT_zEC4",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b6",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Banano",
+                "Banana"
+            ],
+            "flags": 0,
+            "guid": "l/vm:^K->F",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b6",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Uva",
+                "Grape"
+            ],
+            "flags": 0,
+            "guid": "zbN7fNEV,+",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b6",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Pera",
+                "Pear"
+            ],
+            "flags": 0,
+            "guid": "AQzm|a85Dt",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b6",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Naranja",
+                "Orange"
+            ],
+            "flags": 0,
+            "guid": "N-h<0SMDXq",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b6",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Sandía",
+                "Watermelon"
+            ],
+            "flags": 0,
+            "guid": "rp(>a7b*nc",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b6",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Mango",
+                "Mango"
+            ],
+            "flags": 0,
+            "guid": "BF=#@^UTCy",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b6",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Aguacate",
+                "Avocado"
+            ],
+            "flags": 0,
+            "guid": "J,$btpr)F%",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b6",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Albaricoque",
+                "Apricot"
+            ],
+            "flags": 0,
+            "guid": "omXZS%#}a",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b6",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Ciruela",
+                "Plum"
+            ],
+            "flags": 0,
+            "guid": "i?ph,`z(%r",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b6",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Mandarina",
+                "Tangerine"
+            ],
+            "flags": 0,
+            "guid": "HRxRolPXx|",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b6",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Cereza",
+                "Cherry"
+            ],
+            "flags": 0,
+            "guid": "BIm*|+Y29}",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b6",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Melocatón",
+                "Peach"
+            ],
+            "flags": 0,
+            "guid": "F5wv|S=-vr",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b6",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Los vegetales",
+                "The vegetables"
+            ],
+            "flags": 0,
+            "guid": "x9A88BXv2x",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b6",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Tomate",
+                "Tomato"
+            ],
+            "flags": 0,
+            "guid": "toL`#`~E_D",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b6",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Papa",
+                "Potato"
+            ],
+            "flags": 0,
+            "guid": "hi./!O`{Pc",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b6",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Lechuga",
+                "Lettuce"
+            ],
+            "flags": 0,
+            "guid": "dkx_A$_tY!",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b6",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Cebolla",
+                "Onion"
+            ],
+            "flags": 0,
+            "guid": "t=l^9IwCGw",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b6",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Zanahoria",
+                "Carrot"
+            ],
+            "flags": 0,
+            "guid": "vF<Z,[B,6",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b6",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Repollo",
+                "Cabbage"
+            ],
+            "flags": 0,
+            "guid": "C5cesy-8/R",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b6",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Brócoli",
+                "Broccoli"
+            ],
+            "flags": 0,
+            "guid": "IG!Pi&AU>N",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b6",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Coliflor",
+                "Cauliflower"
+            ],
+            "flags": 0,
+            "guid": "QjV.Fs#3i@",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b6",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Rábano",
+                "Radish"
+            ],
+            "flags": 0,
+            "guid": "dqDZz%)E]U",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b6",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Ajo",
+                "Garlic"
+            ],
+            "flags": 0,
+            "guid": "_-v:[%uwb",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b6",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Hongos",
+                "Mushrooms"
+            ],
+            "flags": 0,
+            "guid": "MWUoeuDKse",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b6",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Pepino",
+                "Cucumber"
+            ],
+            "flags": 0,
+            "guid": "sPvogApFZZ",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b6",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Calabaza",
+                "Pumkin"
+            ],
+            "flags": 0,
+            "guid": "OnKo&y}c$,",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b6",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Chile",
+                "Chile"
+            ],
+            "flags": 0,
+            "guid": "CM6)5B?[`.",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b6",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Berenjena",
+                "Eggplant"
+            ],
+            "flags": 0,
+            "guid": "C,dq^{.l3@",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b6",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Apio",
+                "Celery"
+            ],
+            "flags": 0,
+            "guid": "N!N&kIe+*N",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b6",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Espárrago",
+                "Asparagus"
+            ],
+            "flags": 0,
+            "guid": "g.|_m]kyrh",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b6",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Calabacín",
+                "Zucchini"
+            ],
+            "flags": 0,
+            "guid": "AR&$^HU%va",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b6",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Elote",
+                "Corn"
+            ],
+            "flags": 0,
+            "guid": "ob6_G,aiRZ",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b6",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Espinaca",
+                "Spinach"
+            ],
+            "flags": 0,
+            "guid": ":@nF8P/T{",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b6",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Arvejas",
+                "Peas"
+            ],
+            "flags": 0,
+            "guid": "Q6BsX$^|9Y",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b6",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Gustar",
+                "To like"
+            ],
+            "flags": 0,
+            "guid": "MB]-;>OMx]",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b7",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "A mí me gusta",
+                "I like"
+            ],
+            "flags": 0,
+            "guid": "JvX&@rHu8[",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b7",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "A ti te gusta",
+                "You like(informal)"
+            ],
+            "flags": 0,
+            "guid": "w7_uSnaNFK",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b7",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "A usted le gusta",
+                "You like(formal)"
+            ],
+            "flags": 0,
+            "guid": "qrRa]kw:3p",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b7",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "A él, ella le gustan",
+                "He, she likes"
+            ],
+            "flags": 0,
+            "guid": "JRA.V%KHW6",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b7",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "A nosotros nos gustan",
+                "We like"
+            ],
+            "flags": 0,
+            "guid": "jRpQCPO1b^",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b7",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "A Ustedes/ellos/ellas les gustan",
+                "You like(plural)/They like"
+            ],
+            "flags": 0,
+            "guid": ".al,xX=ZO",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b7",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "A mí me gusta la carne",
+                "I like meat"
+            ],
+            "flags": 0,
+            "guid": "O=_8yjsGY<",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b7",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "A ti te gusta el helado",
+                "You like ice cream"
+            ],
+            "flags": 0,
+            "guid": "hp}Qa!cIL^",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b7",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "A usted le gusta la comida",
+                "You like the food"
+            ],
+            "flags": 0,
+            "guid": "oaEZRykW{5",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b7",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "A él le gustan los bananos",
+                "He likes bananas"
+            ],
+            "flags": 0,
+            "guid": "zHXwv.Bfw.",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b7",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "A ellas les gustan las tortillas",
+                "They like tortillas"
+            ],
+            "flags": 0,
+            "guid": "o#Lzk..LPM",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b7",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "A nostros nos gustan las manzanas",
+                "We like apples"
+            ],
+            "flags": 0,
+            "guid": "huQ*2;uJ66",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b7",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "El pastel",
+                "Cake"
+            ],
+            "flags": 0,
+            "guid": "xy.PkVjae>",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b7",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "El pan",
+                "Bread"
+            ],
+            "flags": 0,
+            "guid": "tcbPfAs]]k",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b7",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "El queso",
+                "Cheese"
+            ],
+            "flags": 0,
+            "guid": "cL$b45MCOl",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b7",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "El helado",
+                "Ice cream"
+            ],
+            "flags": 0,
+            "guid": "u3///&DidS",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b7",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "La marmelada",
+                "Jam"
+            ],
+            "flags": 0,
+            "guid": "yOBlEoIMYB",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b7",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Los panqueques",
+                "Pancakes"
+            ],
+            "flags": 0,
+            "guid": "v<6|08+:#u",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b7",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "El cereal",
+                "Cereal"
+            ],
+            "flags": 0,
+            "guid": "H^QH/bN@VG",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b7",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Las papas fritas",
+                "French fries"
+            ],
+            "flags": 0,
+            "guid": "k=I2DbzXQj",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b7",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Las tortillas",
+                "Tortillas"
+            ],
+            "flags": 0,
+            "guid": "l%aVk.H,4C",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b7",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "La pasta",
+                "Pasta"
+            ],
+            "flags": 0,
+            "guid": "KW{+8?N(/#",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b7",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "La ensalada",
+                "Salad"
+            ],
+            "flags": 0,
+            "guid": "x]42VU$b2L",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b7",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "El pollo",
+                "Chicken"
+            ],
+            "flags": 0,
+            "guid": "w8Q^rmnIX/",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b7",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "El pescado",
+                "Fish"
+            ],
+            "flags": 0,
+            "guid": "D[N{$~>JFx",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b7",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "El arroz",
+                "Rice"
+            ],
+            "flags": 0,
+            "guid": "c+v*>Xefqp",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b7",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Los huevos",
+                "Eggs"
+            ],
+            "flags": 0,
+            "guid": "Bn_2RzenY!",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b7",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "La carne",
+                "Meat"
+            ],
+            "flags": 0,
+            "guid": "wL:PnPQ|bL",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b7",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "La leche",
+                "Milk"
+            ],
+            "flags": 0,
+            "guid": "t]5=bxRbwp",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b7",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "El jugo de naranja",
+                "Orange juice"
+            ],
+            "flags": 0,
+            "guid": "zDpe{|<7!,",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b7",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "El aceite",
+                "Oil"
+            ],
+            "flags": 0,
+            "guid": "fV(Uv<}ql7",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b7",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "La mantequilla",
+                "Butter"
+            ],
+            "flags": 0,
+            "guid": "J,Uv.Tl:cA",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b7",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "La limonada",
+                "Lemonade"
+            ],
+            "flags": 0,
+            "guid": "h/FJNtDFp0",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b7",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "El café",
+                "Coffee"
+            ],
+            "flags": 0,
+            "guid": "q-]zf&Z]Lf",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b7",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "El té",
+                "Tea"
+            ],
+            "flags": 0,
+            "guid": "z}_y.tB23B",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b7",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Ser",
+                "To be"
+            ],
+            "flags": 0,
+            "guid": "cijnR1~**e",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b8",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Yo soy",
+                "I am"
+            ],
+            "flags": 0,
+            "guid": "jMLwP%x+zi",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b8",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Tú eres",
+                "You are"
+            ],
+            "flags": 0,
+            "guid": "F=N`F2e07^",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b8",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Usted es",
+                "You are(formal)"
+            ],
+            "flags": 0,
+            "guid": "r3S$z!6HZT",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b8",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Él, ella es",
+                "He, she is"
+            ],
+            "flags": 0,
+            "guid": "b/$d*f.y7p",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b8",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Nosotros -as somos",
+                "We are"
+            ],
+            "flags": 0,
+            "guid": "ESz7$~le;M",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b8",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Ustedes son",
+                "You are(plural)"
+            ],
+            "flags": 0,
+            "guid": "z|)`M,LjEh",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b8",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Ellos, ellas son",
+                "They are"
+            ],
+            "flags": 0,
+            "guid": "Nv6]M~_E);",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b8",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "¿Cuál es tu profesión?",
+                "What is your profession?"
+            ],
+            "flags": 0,
+            "guid": "CM^C6Xu]3O",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b8",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Yo soy maestra",
+                "I am a teacher"
+            ],
+            "flags": 0,
+            "guid": "kH`oJ1M&UT",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b8",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Yo soy ingeniero",
+                "I am an engineer"
+            ],
+            "flags": 0,
+            "guid": "i($Qw`yKI~",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b8",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Yo soy carpintero",
+                "I am a carpenter"
+            ],
+            "flags": 0,
+            "guid": "mmnU~<>J]P",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b8",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Él es futbolista",
+                "He is a football player"
+            ],
+            "flags": 0,
+            "guid": "n,pI|{iK%z",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b8",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Profesiones y oficios",
+                "Professions and occupations"
+            ],
+            "flags": 0,
+            "guid": "Kn!2QVV[w",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b8",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Cocinero",
+                "Cook"
+            ],
+            "flags": 0,
+            "guid": "nGXcQxdSf`",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b8",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Albañil",
+                "Mason"
+            ],
+            "flags": 0,
+            "guid": "i^@pTQ:nOz",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b8",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Jardinero",
+                "Gardener"
+            ],
+            "flags": 0,
+            "guid": "E7IwI,1ep#",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b8",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Mecánico",
+                "Mechanic"
+            ],
+            "flags": 0,
+            "guid": "rs4mhdNd0p",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b8",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Pintor",
+                "Painter"
+            ],
+            "flags": 0,
+            "guid": "c_)(UQZ^BF",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b8",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Fotógrafo",
+                "Photographer"
+            ],
+            "flags": 0,
+            "guid": "gVZ9HHxyGM",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b8",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Bombero",
+                "Fireman"
+            ],
+            "flags": 0,
+            "guid": "AE#9KaM=q|",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b8",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Plomero",
+                "Plumber"
+            ],
+            "flags": 0,
+            "guid": "qUHtj_$>MT",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b8",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Electricista",
+                "Electrician"
+            ],
+            "flags": 0,
+            "guid": "LxPJ^6)Ngr",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b8",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Zapatero",
+                "Shoemaker"
+            ],
+            "flags": 0,
+            "guid": "o{_;0&*l]b",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b8",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Chofer",
+                "Driver"
+            ],
+            "flags": 0,
+            "guid": "tXrtL5,:vD",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b8",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Empleada doméstica",
+                "Maid"
+            ],
+            "flags": 0,
+            "guid": "D8$GxQk^FB",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b8",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Secretaria",
+                "Secretary"
+            ],
+            "flags": 0,
+            "guid": "tJiF~(pL6~",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b8",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Carpintero",
+                "Carpenter"
+            ],
+            "flags": 0,
+            "guid": "uxfH>[tEU@",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b8",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Abogado",
+                "Lawyer"
+            ],
+            "flags": 0,
+            "guid": "Qw7dqPoCdZ",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b8",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Peluquera",
+                "Hairdresser"
+            ],
+            "flags": 0,
+            "guid": "nY;Kwn;P3O",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b8",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Agricultor",
+                "Farmer"
+            ],
+            "flags": 0,
+            "guid": "G`g]i*bk&m",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b8",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Policía",
+                "Policeman"
+            ],
+            "flags": 0,
+            "guid": "w,rW,ERxhM",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b8",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Ingeniero",
+                "Engineer"
+            ],
+            "flags": 0,
+            "guid": "A%_>A_L;*(",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b8",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Enfermera",
+                "Nurse"
+            ],
+            "flags": 0,
+            "guid": "FH3dxhKYq0",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b8",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "¿Dónde estás?",
+                "Where are you?"
+            ],
+            "flags": 0,
+            "guid": "Ell#Bm*@8",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b9",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "¿Dónde está...?",
+                "Where is...?"
+            ],
+            "flags": 0,
+            "guid": "Hm_|+qt8`i",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b9",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "La cuidad",
+                "City"
+            ],
+            "flags": 0,
+            "guid": "eEGSRGmi)$",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b9",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "La iglesia",
+                "Church"
+            ],
+            "flags": 0,
+            "guid": "FHL+&4*?|N",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b9",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "La escuela",
+                "School"
+            ],
+            "flags": 0,
+            "guid": "MG/A`1:J.A",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b9",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "El parque",
+                "Park"
+            ],
+            "flags": 0,
+            "guid": "K{=P9*cJ[R",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b9",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "El zoológico",
+                "Zoo"
+            ],
+            "flags": 0,
+            "guid": "I]`fE@|s~b",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b9",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "El hospital",
+                "Hospital"
+            ],
+            "flags": 0,
+            "guid": "Fqy<:u{f==",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b9",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "La estación de policía",
+                "Police station"
+            ],
+            "flags": 0,
+            "guid": "Aoj]@^3AhK",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b9",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "El banco",
+                "Bank"
+            ],
+            "flags": 0,
+            "guid": "j25{XgV,A?",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b9",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "El restaurante",
+                "Restaurant"
+            ],
+            "flags": 0,
+            "guid": "L.9[C?I}(|",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b9",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "La granja",
+                "Farm"
+            ],
+            "flags": 0,
+            "guid": "glGctGqw{A",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b9",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "El mercado",
+                "Market"
+            ],
+            "flags": 0,
+            "guid": "q$Vl_.s:fN",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b9",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "La Estación de bomberos",
+                "Fire station"
+            ],
+            "flags": 0,
+            "guid": "GQph>9SB}S",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b9",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "El museo",
+                "Museum"
+            ],
+            "flags": 0,
+            "guid": "sa9c2)!_td",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b9",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "La cabina telefónica",
+                "The phone booth"
+            ],
+            "flags": 0,
+            "guid": "u8yuER~N>l",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b9",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "¿De dónde eres tú?",
+                "Where are you from?"
+            ],
+            "flags": 0,
+            "guid": "Fw9t_y)Wm!",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b10",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Yo soy de México",
+                "I am from Mexico"
+            ],
+            "flags": 0,
+            "guid": "s[FDKE`h-e",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b10",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "México",
+                "Mexico"
+            ],
+            "flags": 0,
+            "guid": "cf~px[AA/*",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b10",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Guatemala",
+                "Guatemala"
+            ],
+            "flags": 0,
+            "guid": "m=&U(Wd4c^",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b10",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "El Salvador",
+                "El Salvador"
+            ],
+            "flags": 0,
+            "guid": "Mpg7d}RISf",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b10",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Nicaragua",
+                "Nicaragua"
+            ],
+            "flags": 0,
+            "guid": "zcXF`)*Px@",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b10",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Alemania",
+                "Germany"
+            ],
+            "flags": 0,
+            "guid": "Ew~TK=-&zp",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b10",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Canadá",
+                "Canada"
+            ],
+            "flags": 0,
+            "guid": "OFnju9>RJ1",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b10",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Estados Unidos",
+                "United States"
+            ],
+            "flags": 0,
+            "guid": "wh3x%:k(Hg",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b10",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Costa Rica",
+                "Costa Rica"
+            ],
+            "flags": 0,
+            "guid": "vP%xKCHbKK",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b10",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Iguana",
+                "Iguana"
+            ],
+            "flags": 0,
+            "guid": "kw=M*r@OfK",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b10",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Cebra",
+                "Zebra"
+            ],
+            "flags": 0,
+            "guid": "A{Z-OW*B_j",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b10",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Guacamayas",
+                "Parrots"
+            ],
+            "flags": 0,
+            "guid": "trS6Tp%bSl",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b10",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Hacer",
+                "To do/To make"
+            ],
+            "flags": 0,
+            "guid": "xF;tOA.*-<",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b13",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Yo hago",
+                "I do"
+            ],
+            "flags": 0,
+            "guid": "O*`0>^vLy5",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b13",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Tú haces",
+                "You do"
+            ],
+            "flags": 0,
+            "guid": "cy3b4lkaZQ",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b13",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Usted hace",
+                "You do"
+            ],
+            "flags": 0,
+            "guid": "NT,sotcxs/",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b13",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Él hace",
+                "He does"
+            ],
+            "flags": 0,
+            "guid": "i:VoeM`@;i",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b13",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Ella hace",
+                "She does"
+            ],
+            "flags": 0,
+            "guid": "rl]A}ms9b6",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b13",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Nosotros hacemos",
+                "We do"
+            ],
+            "flags": 0,
+            "guid": "rzCmyyQ^0k",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b13",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Ustedes hacen",
+                "You(plural) do"
+            ],
+            "flags": 0,
+            "guid": "bo3_YNDTxy",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b13",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Ellos hacen",
+                "They do"
+            ],
+            "flags": 0,
+            "guid": "p/VwF8B]<o",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b13",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Ellas hacen",
+                "They do"
+            ],
+            "flags": 0,
+            "guid": "CN=7@c0a7l",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b13",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Ellos hacen pasteles",
+                "They make cakes"
+            ],
+            "flags": 0,
+            "guid": "DZ5=NxO?]z",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b13",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Ella hace todo",
+                "She makes everything"
+            ],
+            "flags": 0,
+            "guid": "oA+9Diczs:",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b13",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Él hace la comida",
+                "He makes the food"
+            ],
+            "flags": 0,
+            "guid": "bp@c7C)Exg",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b13",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "David hace la tarea",
+                "David does the homework"
+            ],
+            "flags": 0,
+            "guid": "Ns/*:$X-;S",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b13",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Ellos hacen ejercicios",
+                "They do exercises"
+            ],
+            "flags": 0,
+            "guid": "Ile2U;H%c|",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b13",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "La niña hace un examen",
+                "The girl does an exam"
+            ],
+            "flags": 0,
+            "guid": "Il)Cb~=$a;",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b13",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "El albañil hace casas",
+                "The mason makes houses"
+            ],
+            "flags": 0,
+            "guid": "eZ[<0~xTbD",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b13",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "La secretaria hace una carta",
+                "The secretary makes a letter"
+            ],
+            "flags": 0,
+            "guid": "Qe|T2Vzp9%",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b13",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "El arquitecto hace planos",
+                "The architect makes floor planes"
+            ],
+            "flags": 0,
+            "guid": "oX9UZ.AR+z",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b13",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "El verbo",
+                "The verb"
+            ],
+            "flags": 0,
+            "guid": "zuA!@R5/Lg",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b14",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Verbos \"AR\"- hablar",
+                "Verbs like to talk"
+            ],
+            "flags": 0,
+            "guid": "z&|fnTY:ct",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b14",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Verbos \"ER\"- comer",
+                "Verbs like to eat"
+            ],
+            "flags": 0,
+            "guid": "s{cT/#gpY]",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b14",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Verbos \"IR\"- escribir",
+                "Verbs like to write"
+            ],
+            "flags": 0,
+            "guid": "z?$<&bgh3S",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b14",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Nadar",
+                "To swim"
+            ],
+            "flags": 0,
+            "guid": "k4.!i<BS]f",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b14",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Saltar",
+                "To jump"
+            ],
+            "flags": 0,
+            "guid": "DW>g+V6aPE",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b14",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Mirar",
+                "To watch"
+            ],
+            "flags": 0,
+            "guid": "v`;UglgK2g",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b14",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Barrer",
+                "To sweep"
+            ],
+            "flags": 0,
+            "guid": "I_=`Z[Rh4~",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b14",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Vender",
+                "To sell"
+            ],
+            "flags": 0,
+            "guid": "QTmW`8WK.g",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b14",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Correr",
+                "To run"
+            ],
+            "flags": 0,
+            "guid": "e[aB43RrL9",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b14",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Escribir",
+                "To write"
+            ],
+            "flags": 0,
+            "guid": "jmEc@!KCxT",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b14",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Aplaudir",
+                "To clap"
+            ],
+            "flags": 0,
+            "guid": "CXF/Mne.6u",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b14",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Abrir",
+                "To open"
+            ],
+            "flags": 0,
+            "guid": "E3c(<y/~z",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b14",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Ayudar",
+                "To help"
+            ],
+            "flags": 0,
+            "guid": "Ne}0<2!%#B",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b14",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Buscar",
+                "To look for"
+            ],
+            "flags": 0,
+            "guid": "K)CiJO{04a",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b14",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Cantar",
+                "To sing"
+            ],
+            "flags": 0,
+            "guid": "d1F6J%+&/=",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b14",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Comprar",
+                "To buy"
+            ],
+            "flags": 0,
+            "guid": "c^lJD.rY?A",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b14",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Contestar",
+                "To answer"
+            ],
+            "flags": 0,
+            "guid": "z?rUR;Xc,L",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b14",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Escuchar",
+                "To listen to"
+            ],
+            "flags": 0,
+            "guid": "odh=V=:Qoh",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b14",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Esperar",
+                "To wait for"
+            ],
+            "flags": 0,
+            "guid": "OPv<s}O^;Y",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b14",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Estudiar",
+                "To study"
+            ],
+            "flags": 0,
+            "guid": "k+;]kj4FB:",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b14",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Caminar",
+                "To walk"
+            ],
+            "flags": 0,
+            "guid": "H58WR4rdt$",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b14",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Ganar",
+                "To win, earn"
+            ],
+            "flags": 0,
+            "guid": "x+dUR,;o*f",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b14",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Hablar",
+                "To speak"
+            ],
+            "flags": 0,
+            "guid": "K]2SwSU3@,",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b14",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Lliegar",
+                "To arrive"
+            ],
+            "flags": 0,
+            "guid": "Isne(-}Wf2",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b14",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Llevar",
+                "To carry"
+            ],
+            "flags": 0,
+            "guid": "ykVjyX~Ent",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b14",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Pagar",
+                "To pay"
+            ],
+            "flags": 0,
+            "guid": "QzA4JV1{K5",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b14",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Preguntar",
+                "To ask"
+            ],
+            "flags": 0,
+            "guid": "E5zWKoef4r",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b14",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Regresar",
+                "To return"
+            ],
+            "flags": 0,
+            "guid": "p0B|<Zb8@R",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b14",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Trabajar",
+                "To work"
+            ],
+            "flags": 0,
+            "guid": "Cu8eL4]:<",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2b14",
+                "n2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Terminar",
+                "To finish"
+            ],
+            "flags": 0,
+            "guid": "AO>jui.Li?",
+            "note_model_uuid": "76593b9c-4946-11ea-b8cf-8c8590154a69",
+            "tags": [
+                "n2",
+                "n2b14"
+            ]
+        }
+    ]
+}
